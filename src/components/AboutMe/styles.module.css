@@ -34,7 +34,7 @@
 
 @media screen and (min-width: 1280px) {
     .about_me {
-        padding: 4em 8em;
+        padding: 2em 8em;
         display: flex;
         align-items: center;
     }
