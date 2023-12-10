@@ -1,0 +1,36 @@
+.welcome {
+    background-image: url('../../assets/img/welcome_bg.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.mask {
+    background-color: rgba(89, 89, 89, .8);
+    padding: 2em 1em;
+}
+
+.text {
+    margin-top: 14em;
+    padding: 4em 0;
+}
+
+.text h1 {
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
+.text span {
+    font-family: inherit;
+    color: var(--accent-color);
+    font-weight: inherit;
+}
+
+.text p {
+    margin-top: 1em;
+    color: #e8e8e8;
+}
+
+.text .button {
+    margin-top: 2em;
+}

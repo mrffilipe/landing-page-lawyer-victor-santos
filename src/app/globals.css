@@ -10,3 +10,7 @@
   --secondary-color: #595959;
   --accent-color: #C9B037;
 }
+
+main {
+  background-color: var(--primary-color);
+}

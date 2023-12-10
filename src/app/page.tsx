@@ -1,7 +1,9 @@
 import styles from './page.module.css'
 
+import Welcome from '@/components/Welcome'
+
 export default function Home() {
   return (
-    <h1>Hello World!</h1>
+    <Welcome />
   )
 }
