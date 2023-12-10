@@ -5,6 +5,7 @@
 .areas_expertise h1 {
     text-transform: uppercase;
     text-align: center;
+    color: var(--secondary-color);
     font-weight: 500;
 }
 
