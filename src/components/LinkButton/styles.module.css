@@ -3,10 +3,19 @@
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
-    padding: 1em 0;
+    padding: 1em 2em;
     border-radius: .5em;
     border: 2px solid var(--accent-color);
     color: var(--accent-color);
     font-size: 1.2em;
     font-weight: 700;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .3);
+    transition: all .3s ease;
+}
+
+.button:hover {
+    background-color: var(--accent-color);
+    color: var(--supporting-color);
+    box-shadow: 0 9px 12px rgba(0, 0, 0, .3);
+    transform: translateY(-5px);
 }
