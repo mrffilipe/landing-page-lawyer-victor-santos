@@ -1,0 +1,63 @@
+.areas_expertise {
+    padding: 2em 1em;
+}
+
+.areas_expertise h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+}
+
+.areas_expertise p {
+    text-align: center;
+    color: #7f7f7f;
+}
+
+.areas {
+    margin-top: 3em;
+}
+
+.area {
+    margin-bottom: 4em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.area .icon {
+    padding: 1.5em;
+    border-radius: 50%;
+    border: 2px solid var(--secondary-color);
+}
+
+.area .icon img {
+    width: 35px;
+    height: auto;
+}
+
+.area span {
+    margin-top: 1em;
+    text-transform: uppercase;
+    color: var(--accent-color);
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.area p {
+    color: #7f7f7f;
+}
+
+@media screen and (min-width: 1280px) {
+    .areas_expertise {
+        padding: 4em 8em;
+    }
+
+    .areas {
+        display: flex;
+    }
+
+    .area {
+        margin: 0 .5em;
+        margin-bottom: 0;
+    }
+}
