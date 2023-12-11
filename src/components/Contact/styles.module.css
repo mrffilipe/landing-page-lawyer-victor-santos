@@ -1,0 +1,67 @@
+.contact {
+    background-image: url('../../assets/img/welcome_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.mask {
+    height: 100%;
+    background-color: rgba(44, 57, 75, .8);
+    padding: 4em 2em;
+}
+
+.text span {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--accent-color);
+    font-family: 'Merriweather', serif;
+    font-size: 2em;
+}
+
+.text form {
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text form label {
+    width: 100%;
+}
+
+.text form input,
+.text form textarea {
+    width: 100%;
+    margin-top: 1em;
+    background: none;
+    border: none;
+    outline: none;
+    border: 2px solid var(--primary-color);
+    border-radius: .5em;
+    padding: 1em;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    transition: all .3s ease;
+}
+
+.text form input::placeholder,
+.text form textarea::placeholder {
+    color: #d8d8d8;
+}
+
+.text form input[type='text'],
+.text form textarea {
+    color: var(--supporting-color);
+}
+
+.text form input:focus,
+.text form textarea:focus {
+    border: 2px solid var(--accent-color);
+}
+
+.button {
+    margin-top: 2em;
+    width: 100%;
+}

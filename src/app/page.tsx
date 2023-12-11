@@ -4,6 +4,7 @@ import Welcome from '@/components/Welcome'
 import AreasOfExpertise from '@/components/AreasOfExpertise'
 import AboutMe from '@/components/AboutMe'
 import Cases from '@/components/Cases'
+import Contact from '@/components/Contact'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <AreasOfExpertise />
       <AboutMe />
       <Cases />
+      <Contact />
     </>
   )
 }

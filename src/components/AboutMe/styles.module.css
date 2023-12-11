@@ -1,5 +1,5 @@
 .about_me {
-    background-color: #f9f7eb;
+    background-color: #2C394B;
     padding: 4em 2em;
 }
 
@@ -9,6 +9,7 @@
     height: 300px;
     border-radius: 50%;
     overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .3);
 }
 
 .profile img {
@@ -24,12 +25,12 @@
 .text h1 {
     text-align: center;
     text-transform: uppercase;
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 .text p {
     text-align: center;
-    color: #7f7f7f;
+    color: #dfdfdf;
 }
 
 @media screen and (min-width: 1280px) {
