@@ -3,6 +3,17 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+
+    transform: translateY(30px);
+    opacity: 0;
+    animation: bottomToOrigin 1s forwards;
+}
+
+@keyframes bottomToOrigin {
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 
 .case .header {

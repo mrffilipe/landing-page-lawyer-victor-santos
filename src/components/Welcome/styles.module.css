@@ -13,6 +13,17 @@
 .text {
     margin-top: 14em;
     padding: 4em 0;
+
+    transform: translateX(20px);
+    opacity: 0;
+    animation: rightToOrigin .3s forwards;
+}
+
+@keyframes rightToOrigin {
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 
 .text h1 {

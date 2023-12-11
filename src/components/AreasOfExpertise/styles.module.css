@@ -1,5 +1,16 @@
 .areas_expertise {
     padding: 2em 1em;
+
+    transform: translateY(30px);
+    opacity: 0;
+    animation: bottomToOrigin 1s forwards;
+}
+
+@keyframes bottomToOrigin {
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 
 .areas_expertise h1 {
