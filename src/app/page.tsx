@@ -6,6 +6,7 @@ import AboutMe from '@/components/AboutMe'
 import Cases from '@/components/Cases'
 import Contact from '@/components/Contact'
 import MoreInformation from '@/components/MoreInformation'
+import Footer from '@/components/Footer'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Cases />
       <Contact />
       <MoreInformation />
+      <Footer />
     </>
   )
 }
