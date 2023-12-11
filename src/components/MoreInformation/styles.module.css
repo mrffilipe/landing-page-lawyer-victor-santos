@@ -1,0 +1,45 @@
+.more_information {
+    background-color: #334756;
+    padding: 4em 2em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info {
+    margin-bottom: 3em;
+}
+
+.more_information :nth-child(4) {
+    margin-bottom: 0;
+}
+
+.info span,
+.info p {
+    text-align: center;
+    display: block;
+}
+
+.info span {
+    text-transform: uppercase;
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.info p {
+    width: max-content;
+    color: #dfdfdf;
+}
+
+@media screen and (min-width: 1280px) {
+    .more_information {
+        padding: 6em 8em;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+
+    .info {
+        margin: 0 .5em;
+        margin-bottom: 0;
+    }
+}

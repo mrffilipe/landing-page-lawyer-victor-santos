@@ -5,6 +5,7 @@ import AreasOfExpertise from '@/components/AreasOfExpertise'
 import AboutMe from '@/components/AboutMe'
 import Cases from '@/components/Cases'
 import Contact from '@/components/Contact'
+import MoreInformation from '@/components/MoreInformation'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <AboutMe />
       <Cases />
       <Contact />
+      <MoreInformation />
     </>
   )
 }

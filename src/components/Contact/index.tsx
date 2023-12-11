@@ -21,7 +21,7 @@ const Contact = () => {
                             </label>
                         </div>
                         <label>
-                            <textarea rows={3} placeholder='Sua mensagem' />
+                            <textarea rows={4} placeholder='Sua mensagem' />
                         </label>
                         <Button value='Enviar mensagem' className={styles.button} />
                     </form>

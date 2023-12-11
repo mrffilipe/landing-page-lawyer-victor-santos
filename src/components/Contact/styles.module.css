@@ -27,6 +27,10 @@
     flex-direction: column;
 }
 
+.text .group {
+    width: 100%;
+}
+
 .text form label {
     width: 100%;
 }
