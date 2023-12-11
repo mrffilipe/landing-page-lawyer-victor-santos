@@ -1,12 +1,9 @@
 .footer {
-    background-color: #334756;
+    background-color: var(--secondary-color);
+    padding: 2em;
     display: flex;
     align-items: center;
     flex-direction: column;
-}
-
-.logo {
-    padding: 1em 2em;
 }
 
 .logo span {
@@ -15,24 +12,9 @@
     font-weight: 700;
 }
 
-.social_medias a {
-    display: inline-block;
-    margin: 0 .5em;
-    background-color: #334756;
-    padding: 5px;
-    border-radius: .5em;
-}
-
-.social_medias img {
-    width: 35px;
-    height: auto;
-}
-
 .reserved {
-    margin-top: 1em;
+    margin-top: 3em;
     width: 100%;
-    background-color: var(--secondary-color);
-    padding: 2em;
 }
 
 .reserved :nth-child(2) {
