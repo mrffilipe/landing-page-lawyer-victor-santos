@@ -9,19 +9,20 @@ const Contact = () => {
                 <div className={styles.text}>
                     <span>Obtenha uma avaliação gratuita</span>
                     <form>
-                        <label>
-                            <input type="text" placeholder='Nome' />
-                        </label>
-                        <label>
-                            <input type="text" placeholder='E-mai' />
-                        </label>
-                        <label>
-                            <input type="text" placeholder='Telefone' />
-                        </label>
+                        <div className={styles.group}>
+                            <label>
+                                <input type="text" placeholder='Nome' />
+                            </label>
+                            <label>
+                                <input type="text" placeholder='E-mail' />
+                            </label>
+                            <label>
+                                <input type="text" placeholder='Telefone' />
+                            </label>
+                        </div>
                         <label>
                             <textarea rows={3} placeholder='Sua mensagem' />
                         </label>
-                        <input type="submit" value="" />
                         <Button value='Enviar mensagem' className={styles.button} />
                     </form>
                 </div>
