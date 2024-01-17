@@ -2,13 +2,13 @@ import styles from './styles.module.css'
 
 import Image from 'next/image'
 
-import Profile from '@/assets/img/about_me_bg.jpeg'
+import ProfileImg from '@/assets/img/about_me_bg.jpeg'
 
 const AboutMe = () => {
     return (
         <section className={styles.about_me}>
             <div className={styles.profile}>
-                <Image src={Profile} alt='Imagem do Dr. Advogado Victor Santos' />
+                <Image src={ProfileImg} alt='Imagem do Dr. Advogado Victor Santos' />
             </div>
             <div className={styles.description}>
                 <h1>Sobre mim</h1>

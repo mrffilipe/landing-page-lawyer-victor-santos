@@ -1,0 +1,32 @@
+.case {
+    display: flex;
+    align-items: flex-start;
+}
+
+.case img {
+    width: 28px;
+    height: auto;
+}
+
+.header {
+    margin-left: 1em;
+}
+
+.header span {
+    display: block;
+    text-transform: uppercase;
+    text-align: start;
+    color: var(--complementary-font-color-dark);
+}
+
+.header p {
+    margin-top: .5em;
+    text-align: start;
+    color: var(--primary-font-color-dark);
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 960px) {
+    .case {}
+}

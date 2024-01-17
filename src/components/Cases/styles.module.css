@@ -1,12 +1,28 @@
 .cases {
-    padding: 4em 2em;
+    padding: var(--vertical-padding) var(--horizontal-padding);
+
+    transform: translateY(40px);
+    opacity: 0;
+    animation: bottomToOrigin .6s forwards;
+}
+
+.cases h1 {
+    text-align: center;
+    color: var(--primary-font-color-dark);
+    font-weight: 700;
+}
+
+.cases p {
+    text-align: center;
+    color: var(--complementary-font-color-dark);
+}
+
+.cases ul {
+    margin-top: 2em;
     display: flex;
     align-items: center;
     flex-direction: column;
-
-    transform: translateY(30px);
-    opacity: 0;
-    animation: bottomToOrigin 1s forwards;
+    gap: 2em;
 }
 
 @keyframes bottomToOrigin {
@@ -16,53 +32,9 @@
     }
 }
 
-.case .header {
-    display: flex;
-    align-items: center;
-}
-
-.case .header img {
-    width: auto;
-    height: 25px;
-}
-
-.case .header span {
-    text-transform: uppercase;
-    margin-left: 1em;
-    color: #7f7f7f;
-    font-weight: 500;
-}
-
-.case {
-    display: flex;
-    margin-bottom: 3em;
-}
-
-.case .result {
-    margin-left: 1em;
-}
-
-.case .result span {
-    color: #7f7f7f;
-    font-weight: 700;
-}
-
-.case .result p {
-    width: max-content;
-    color: var(--secondary-color);
-    font-size: 2em;
-    font-weight: 700;
-}
-
-@media screen and (min-width: 1280px) {
-    .cases {
-        padding: 6em 8em;
+@media screen and (min-width: 960px) {
+    .cases ul {
         justify-content: space-evenly;
         flex-direction: row;
-    }
-
-    .case {
-        margin: 0 .5em;
-        margin-bottom: 0;
     }
 }
