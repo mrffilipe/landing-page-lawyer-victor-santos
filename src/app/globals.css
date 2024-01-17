@@ -6,13 +6,12 @@
 
 :root {
   --primary-color: #F8F8F8;
-  --supporting-color: #fff;
-  --secondary-color: #082032;
+  --complementary-color: #082032;
   --accent-color: #FF4C29;
 
   --primary-mask-color: rgba(44, 57, 75, .8);
 
-  --vertical-padding: 1em;
+  --vertical-padding: 2em;
   --horizontal-padding: 1em;
 }
 

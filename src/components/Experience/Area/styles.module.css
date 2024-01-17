@@ -1,0 +1,36 @@
+.area {
+    margin-bottom: 3em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.area .icon {
+    padding: 1.2em;
+    border-radius: 50%;
+    border: 2px solid var(--primary-font-color-dark);
+}
+
+.area .icon img {
+    width: 30px;
+    height: auto;
+}
+
+.area span {
+    margin-top: .5em;
+    text-transform: uppercase;
+    color: var(--accent-color);
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.area p {
+    color: var(--complementary-font-color-dark);
+}
+
+@media screen and (min-width: 960px) {
+    .area {
+        width: calc(50% - 2em);
+        margin: 0;
+    }
+}

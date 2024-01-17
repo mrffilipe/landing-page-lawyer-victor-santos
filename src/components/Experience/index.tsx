@@ -1,54 +1,42 @@
 import styles from './styles.module.css'
 
-import Image from 'next/image'
+import Area from './Area'
 
 import BusinessIcon from '@/assets/svg/business.png'
 
 const Experience = () => {
     return (
-        <section className={styles.areas_expertise}>
+        <section className={styles.experience}>
             <h1>Principais áreas de atuação</h1>
             <p>
                 Conheça as áreas em que atuo com profundidade e expertise, oferecendo soluções jurídicas personalizadas e dedicadas.
             </p>
-            <div className={styles.areas}>
-                <div className={styles.area}>
-                    <div className={styles.icon}>
-                        <Image src={BusinessIcon} alt='Business Icons8' />
-                    </div>
-                    <span>Direito do Trabalho</span>
-                    <p>
-                        Assessoria em questões trabalhistas, incluindo contratos, rescisões e ações por direitos.
-                    </p>
-                </div>
-                <div className={styles.area}>
-                    <div className={styles.icon}>
-                        <Image src={BusinessIcon} alt='Business Icons8' />
-                    </div>
-                    <span>Direito Civil</span>
-                    <p>
-                        Soluções em regularização de imóveis, inventários, usucapião e adjudicação compulsória.
-                    </p>
-                </div>
-                <div className={styles.area}>
-                    <div className={styles.icon}>
-                        <Image src={BusinessIcon} alt='Business Icons8' />
-                    </div>
-                    <span>Direito Público</span>
-                    <p>
-                        Representação em licitações, contratos administrativos e questões urbanísticas.
-                    </p>
-                </div>
-                <div className={styles.area}>
-                    <div className={styles.icon}>
-                        <Image src={BusinessIcon} alt='Business Icons8' />
-                    </div>
-                    <span>Ações de Cobrança</span>
-                    <p>
-                        Recuperação de créditos através de ações judiciais e extrajudiciais.
-                    </p>
-                </div>
-            </div>
+            <ul className={styles.areas}>
+                <Area
+                    title='Direito do trabalho'
+                    description='Assessoria em questões trabalhistas, incluindo contratos, rescisões e ações por direitos.'
+                    icon={BusinessIcon}
+                    altIcon='Business Icons8'
+                />
+                <Area
+                    title='Direito civil'
+                    description='Soluções em regularização de imóveis, inventários, usucapião e adjudicação compulsória.'
+                    icon={BusinessIcon}
+                    altIcon='Business Icons8'
+                />
+                <Area
+                    title='Direito público'
+                    description='Representação em licitações, contratos administrativos e questões urbanísticas.'
+                    icon={BusinessIcon}
+                    altIcon='Business Icons8'
+                />
+                <Area
+                    title='Ações de cobrança'
+                    description='Recuperação de créditos através de ações judiciais e extrajudiciais.'
+                    icon={BusinessIcon}
+                    altIcon='Business Icons8'
+                />
+            </ul>
         </section>
     )
 }
