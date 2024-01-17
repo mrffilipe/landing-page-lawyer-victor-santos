@@ -8,7 +8,7 @@ const AboutMe = () => {
     return (
         <section className={styles.about_me}>
             <div className={styles.profile}>
-                <Image src={ProfileImg} alt='Imagem do Dr. Advogado Victor Santos' />
+                <Image src={ProfileImg} alt='Imagem do Dr. Advogado Victor Santos' draggable={false} />
             </div>
             <div className={styles.description}>
                 <h1>Sobre mim</h1>

@@ -22,7 +22,11 @@ button {
 p,
 a,
 span,
-li {
+button,
+li,
+label,
+input,
+textarea {
     font-family: var(--secondary-font);
 }
 
@@ -46,8 +50,10 @@ p,
 a,
 span,
 button,
+li,
 label,
-input {
+input,
+textarea {
     font-size: 1em;
     font-weight: 400;
 }

@@ -13,7 +13,7 @@ type Props = {
 const Case = (props: Props) => {
     return (
         <li className={styles.case}>
-            <Image src={props.icon} alt={props.altIcon} />
+            <Image src={props.icon} alt={props.altIcon} draggable={false} />
             <div className={styles.header}>
                 <span>{props.title}</span>
                 <p>{props.value}</p>

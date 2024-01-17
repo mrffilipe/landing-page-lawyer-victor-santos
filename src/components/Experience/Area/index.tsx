@@ -14,7 +14,7 @@ const Area = (props: Props) => {
     return (
         <li className={styles.area}>
             <div className={styles.icon}>
-                <Image src={props.icon} alt={props.altIcon} />
+                <Image src={props.icon} alt={props.altIcon} draggable={false} />
             </div>
             <span>{props.title}</span>
             <p>{props.description}</p>

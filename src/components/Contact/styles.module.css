@@ -1,95 +1,67 @@
 .contact {
     background-image: url('../../assets/img/contact_bg.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
+    background-size: cover;
 }
 
 .mask {
     height: 100%;
-    background-color: rgba(44, 57, 75, .8);
-    padding: 4em 2em;
+    background-color: var(--primary-mask-color);
+    padding: var(--vertical-padding) var(--horizontal-padding);
 }
 
-.text span {
-    display: block;
+.mask h1 {
     text-align: center;
     text-transform: uppercase;
-    color: var(--accent-color);
-    font-family: 'Merriweather', serif;
-    font-size: 2em;
+    color: var(--primary-font-color-light);
+    font-weight: 700;
 }
 
-.text form {
+.mask form {
     margin-top: 2em;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.text .group {
+.mask .group,
+.mask form label {
     width: 100%;
 }
 
-.text form label {
-    width: 100%;
-}
-
-.text form input,
-.text form textarea {
-    width: 100%;
+.mask form input,
+.mask form textarea {
     margin-top: 1em;
+    width: 100%;
     background: none;
     border: none;
     outline: none;
     border: 2px solid var(--primary-color);
     border-radius: .5em;
     padding: 1em;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1em;
+    color: var(--primary-font-color-light);
     transition: all .3s ease;
 }
 
-.text form input::placeholder,
-.text form textarea::placeholder {
-    color: #d8d8d8;
+.mask form input::placeholder,
+.mask form textarea::placeholder {
+    color: var(--complementary-font-color-light);
 }
 
-.text form input[type='text'],
-.text form textarea {
-    color: var(--supporting-color);
-}
-
-.text form input:focus,
-.text form textarea:focus {
+.mask form input:focus,
+.mask form textarea:focus {
     border: 2px solid var(--accent-color);
 }
 
-.button {
-    margin-top: 2em;
-    width: 100%;
+.mask .button {
+    margin-top: 3em;
 }
 
-@media screen and (min-width: 1280px) {
-    .mask {
-        padding: 6em 8em;
-    }
-
+@media screen and (min-width: 960px) {
     .group {
-        width: 100%;
         display: flex;
         justify-content: space-between;
-    }
-
-    .group label {
-        flex: 1;
-    }
-
-    .group :nth-child(2) {
-        margin: 0 1em;
-    }
-
-    .button {
-        width: fit-content;
+        gap: 1em;
     }
 }

@@ -15,7 +15,7 @@ export default function Home() {
       <AboutMe />
       <Cases />
       <Contact />
-      {/* <MoreInformation /> */}
+      <MoreInformation />
     </>
   )
 }
