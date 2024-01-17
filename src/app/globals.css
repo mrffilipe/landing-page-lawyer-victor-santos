@@ -9,8 +9,18 @@
   --supporting-color: #fff;
   --secondary-color: #082032;
   --accent-color: #FF4C29;
+
+  --vertical-padding: 4em;
+  --horizontal-padding: 12em;
 }
 
 main {
   background-color: var(--primary-color);
+}
+
+@media screen and (max-width: 960px) {
+  :root {
+    --vertical-padding: 1em;
+    --horizontal-padding: 1em;
+  }
 }

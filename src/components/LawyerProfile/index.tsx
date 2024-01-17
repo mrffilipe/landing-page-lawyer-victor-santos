@@ -1,13 +1,11 @@
 import styles from './styles.module.css'
 
-import Header from '../Header'
 import LinkButton from '../LinkButton'
 
-const Welcome = () => {
+const LawyerProfile = () => {
     return (
         <section className={styles.welcome}>
             <div className={styles.mask}>
-                <Header />
                 <div className={styles.text}>
                     <h1>
                         Confiança<br />
@@ -23,4 +21,4 @@ const Welcome = () => {
     )
 }
 
-export default Welcome
+export default LawyerProfile

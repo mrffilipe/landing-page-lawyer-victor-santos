@@ -1,38 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@400;500;600&display=swap');
 
+:root {
+    --primary-font: 'Merriweather', serif;
+    --secondary-font: 'Open Sans', sans-serif;
+
+    --primary-font-color-light: #f8f8f8;
+    --complementary-font-color-light: #ebebeb;
+
+    --primary-font-color-dark: #082032;
+    --complementary-font-color-dark: #0c2e48;
+}
+
 h1,
 h2,
 h3,
-h4 {
-    font-family: 'Merriweather', serif;
+h4,
+button {
+    font-family: var(--primary-font);
 }
 
 p,
-span,
 a,
-button {
-    font-family: 'Open Sans', sans-serif;
+span,
+li {
+    font-family: var(--secondary-font);
 }
 
 h1 {
-    font-size: 2.5em;
+    font-size: 2.3;
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 1.8;
 }
 
 h3 {
-    font-size: 1.5em;
-}
-
-h4 {
     font-size: 1.3em;
 }
 
+h4 {
+    font-size: 1.1em;
+}
+
 p,
+a,
 span,
-a {
+button,
+label,
+input {
     font-size: 1em;
     font-weight: 400;
 }
@@ -41,7 +56,20 @@ p {
     margin-top: .5em;
 }
 
-button {
-    font-size: 1.2em;
-    font-weight: 600;
+@media screen and (max-width: 960px) {
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    h4 {
+        font-size: 1.3em;
+    }
 }

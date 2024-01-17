@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 import BusinessIcon from '@/assets/svg/business.png'
 
-const AreasOfExpertise = () => {
+const Experience = () => {
     return (
         <section className={styles.areas_expertise}>
             <h1>Principais áreas de atuação</h1>
@@ -53,4 +53,4 @@ const AreasOfExpertise = () => {
     )
 }
 
-export default AreasOfExpertise
+export default Experience
