@@ -8,42 +8,44 @@ const AreasOfExpertise = () => {
     return (
         <section className={styles.areas_expertise}>
             <h1>Principais áreas de atuação</h1>
-            <p>Lorem ipsum</p>
+            <p>
+                Conheça as áreas em que atuo com profundidade e expertise, oferecendo soluções jurídicas personalizadas e dedicadas.
+            </p>
             <div className={styles.areas}>
                 <div className={styles.area}>
                     <div className={styles.icon}>
                         <Image src={BusinessIcon} alt='Business Icons8' />
                     </div>
-                    <span>Coorporativo</span>
+                    <span>Direito do Trabalho</span>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut mauris non diam sodales ultricies. Praesent malesuada auctor justo.
+                        Assessoria em questões trabalhistas, incluindo contratos, rescisões e ações por direitos.
                     </p>
                 </div>
                 <div className={styles.area}>
                     <div className={styles.icon}>
                         <Image src={BusinessIcon} alt='Business Icons8' />
                     </div>
-                    <span>Coorporativo</span>
+                    <span>Direito Civil</span>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut mauris non diam sodales ultricies. Praesent malesuada auctor justo.
+                        Soluções em regularização de imóveis, inventários, usucapião e adjudicação compulsória.
                     </p>
                 </div>
                 <div className={styles.area}>
                     <div className={styles.icon}>
                         <Image src={BusinessIcon} alt='Business Icons8' />
                     </div>
-                    <span>Coorporativo</span>
+                    <span>Direito Público</span>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut mauris non diam sodales ultricies. Praesent malesuada auctor justo.
+                        Representação em licitações, contratos administrativos e questões urbanísticas.
                     </p>
                 </div>
                 <div className={styles.area}>
                     <div className={styles.icon}>
                         <Image src={BusinessIcon} alt='Business Icons8' />
                     </div>
-                    <span>Coorporativo</span>
+                    <span>Ações de Cobrança</span>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut mauris non diam sodales ultricies. Praesent malesuada auctor justo.
+                        Recuperação de créditos através de ações judiciais e extrajudiciais.
                     </p>
                 </div>
             </div>

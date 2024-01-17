@@ -14,7 +14,7 @@ const Welcome = () => {
                         em cada <span>decisão</span>
                     </h1>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut mauris non diam sodales ultricies. Praesent malesuada auctor justo.
+                        Comprometido com a excelência, cada caso é abordado com dedicação única. Explore como posso orientar você nas decisões jurídicas.
                     </p>
                     <LinkButton value='Entre em contato' href='/' className={styles.button} />
                 </div>

@@ -10,30 +10,29 @@ const MoreInformation = () => {
         <section className={styles.more_information}>
             <div className={styles.info}>
                 <span>Endereço</span>
-                <p>Rua Jamel Cecílio N45</p>
+                <p>
+                    R. Deodoro Veiga, Nº 56, C<br />
+                    Centro<br />
+                    Pires do Rio, GO
+                </p>
+                {/* <p>R. Deodoro Veiga, Nº 56, C - Centro, Pires do Rio - GO</p> */}
             </div>
             <div className={styles.info}>
-                <span>Endereço</span>
-                <p>Rua Jamel Cecílio N45</p>
+                <span>Telefone</span>
+                <p>(64) 9 9262-4222</p>
             </div>
             <div className={styles.info}>
-                <span>Endereço</span>
-                <p>Rua Jamel Cecílio N45</p>
+                <span>E-mail</span>
+                <p>victor.santosadvogado@gmail.com</p>
             </div>
             <div className={styles.info}>
-                <span>Endereço</span>
-                <p>Rua Jamel Cecílio N45</p>
+                <span>Horário comercial</span>
+                <p>Seg à Sex: 09:00 - 17:30</p>
             </div>
             <div className={styles.info}>
                 <span>Mídias sociais</span>
                 <div className={styles.social_medias}>
-                    <Link href='/' target='_blank'>
-                        <Image src={InstagramIcon} alt='Icons8 Instagram' />
-                    </Link>
-                    <Link href='/' target='_blank'>
-                        <Image src={InstagramIcon} alt='Icons8 Instagram' />
-                    </Link>
-                    <Link href='/' target='_blank'>
+                    <Link href='https://instagram.com/adv_victor?igshid=OGQ5ZDc2ODk2ZA==' target='_blank'>
                         <Image src={InstagramIcon} alt='Icons8 Instagram' />
                     </Link>
                 </div>

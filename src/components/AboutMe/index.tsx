@@ -2,7 +2,7 @@ import styles from './styles.module.css'
 
 import Image from 'next/image'
 
-import Profile from '@/assets/img/welcome_bg.jpg'
+import Profile from '@/assets/img/about_me_bg.jpeg'
 
 const AboutMe = () => {
     return (
