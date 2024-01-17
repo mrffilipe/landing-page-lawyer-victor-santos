@@ -8,9 +8,9 @@ const AboutMe = () => {
     return (
         <section className={styles.about_me}>
             <div className={styles.profile}>
-                <Image src={Profile} alt='Foto do Doutor Advogado Victor Santos' />
+                <Image src={Profile} alt='Imagem do Dr. Advogado Victor Santos' />
             </div>
-            <div className={styles.text}>
+            <div className={styles.description}>
                 <h1>Sobre mim</h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut mauris non diam sodales ultricies. Praesent malesuada auctor justo, at viverra elit gravida eu. Curabitur id odio sit amet diam vulputate condimentum eget a est. Curabitur suscipit viverra semper. Fusce vitae ex tincidunt,

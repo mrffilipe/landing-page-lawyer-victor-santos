@@ -1,6 +1,6 @@
 .about_me {
-    background-color: #2C394B;
-    padding: 4em 2em;
+    background-color: var(--complementary-color);
+    padding: var(--vertical-padding) var(--horizontal-padding);
 }
 
 .profile {
@@ -9,7 +9,10 @@
     height: 300px;
     border-radius: 50%;
     overflow: hidden;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, .3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .3);
 }
 
 .profile img {
@@ -18,54 +21,35 @@
     object-fit: cover;
 }
 
-.text {
+.description {
     margin-top: 2em;
 }
 
-.text h1 {
+.description h1 {
     text-align: center;
     text-transform: uppercase;
-    color: var(--primary-color);
+    color: var(--primary-font-color-light);
+    font-weight: 700;
 }
 
-.text p {
-    text-align: center;
-    color: #dfdfdf;
+.description p {
+    text-align: justify;
+    color: var(--complementary-font-color-light);
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 960px) {
     .about_me {
-        padding: 2em 8em;
         display: flex;
         align-items: center;
     }
 
-    .profile {
-        margin: 0;
-        width: 30%;
-        height: 0;
-        padding-bottom: 30%;
-        border-radius: .5em;
-
-        position: relative;
-    }
-
-    .profile img {
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-    }
-
-    .text {
+    .description {
         flex: 1;
         margin-top: 0;
-        margin-left: 8em;
+        margin-left: 4em;
     }
 
-    .text h1,
-    .text p {
+    .description h1 {
         text-align: left;
     }
 }
