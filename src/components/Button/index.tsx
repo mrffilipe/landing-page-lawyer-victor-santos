@@ -1,15 +1,11 @@
 import styles from './styles.module.css'
 
 type Props = {
-    value: string,
-    className?: string
+    className?: string,
+    value: string
 }
 
 const Button = (props: Props) => {
-    if (!props.value) {
-        props.value = Button.name
-    }
-
     return (
         <button
             className={`${styles.button} ${props.className}`}>

@@ -1,18 +1,18 @@
-.welcome {
+.lawyer_profile {
     background-image: url('../../assets/img/welcome_bg.jpg');
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center;
     background-size: cover;
 }
 
 .mask {
-    background-color: rgba(44, 57, 75, .8);
-    padding: 2em 1em;
+    background-color: var(--primary-mask-color);
+    padding: var(--vertical-padding) var(--horizontal-padding);
 }
 
-.text {
-    margin-top: 14em;
-    padding: 4em 0;
+.description {
+    padding: 16em 0;
+    margin: 0 auto;
 
     transform: translateX(20px);
     opacity: 0;
@@ -26,49 +26,46 @@
     }
 }
 
-.text h1 {
+.description h1 {
     text-transform: uppercase;
-    color: var(--primary-color);
+    color: var(--primary-font-color-light);
 }
 
-.text span {
+.description span {
     font-family: inherit;
     color: var(--accent-color);
     font-weight: inherit;
 }
 
-.text p {
+.description p {
     margin-top: 1em;
-    color: #d8d8d8;
+    color: var(--complementary-font-color-light);
 }
 
-.text .button {
-    margin-top: 2em;
+.description .button {
+    margin-top: 3em;
 }
 
-@media screen and (min-width: 1280px) {
-    .welcome {
-        background-position: center;
-    }
-
+@media screen and (min-width: 960px) {
     .mask {
-        padding: 2em 8em;
+        padding: var(--vertical-padding) var(--horizontal-padding);
     }
 
-    .text {
-        margin-top: 0;
-        padding: 12em 0;
+    .description {
+        padding: var(--vertical-padding) 0;
         display: flex;
-        flex-direction: column;
         align-items: flex-end;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
 
-    .text h1 {
+    .description h1 {
         text-align: end;
         line-height: 1.5;
     }
 
-    .text p {
-        max-width: 35%;
+    .description p {
+        max-width: 560px;
+        text-align: justify;
     }
 }

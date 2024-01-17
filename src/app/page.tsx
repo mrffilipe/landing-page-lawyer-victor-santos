@@ -12,10 +12,10 @@ export default function Home() {
     <>
       <LawyerProfile />
       <Experience />
-      <AboutMe />
-      <Cases />
-      <Contact />
-      <MoreInformation />
+      {/* <AboutMe /> */}
+      {/* <Cases /> */}
+      {/* <Contact /> */}
+      {/* <MoreInformation /> */}
     </>
   )
 }

@@ -10,17 +10,19 @@
   --secondary-color: #082032;
   --accent-color: #FF4C29;
 
-  --vertical-padding: 4em;
-  --horizontal-padding: 12em;
+  --primary-mask-color: rgba(44, 57, 75, .8);
+
+  --vertical-padding: 1em;
+  --horizontal-padding: 1em;
 }
 
 main {
   background-color: var(--primary-color);
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (min-width: 960px) {
   :root {
-    --vertical-padding: 1em;
-    --horizontal-padding: 1em;
+    --vertical-padding: 4em;
+    --horizontal-padding: 12em;
   }
 }
