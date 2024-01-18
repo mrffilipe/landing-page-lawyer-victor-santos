@@ -1,0 +1,27 @@
+.info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info span,
+.info p {
+    display: block;
+    text-align: center;
+}
+
+.info span {
+    text-transform: uppercase;
+    color: var(--primary-font-color-dark);
+    font-weight: 700;
+}
+
+.info p {
+    color: var(--complementary-font-color-dark);
+}
+
+@media screen and (min-width: 960px) {
+    .info {
+        width: calc(33.33% - 2em);
+    }
+}

@@ -1,6 +1,6 @@
 .about_me {
     background-color: var(--complementary-color);
-    padding: var(--vertical-padding) var(--horizontal-padding);
+    padding: calc(var(--vertical-padding) * 2) var(--horizontal-padding);
 }
 
 .profile {
