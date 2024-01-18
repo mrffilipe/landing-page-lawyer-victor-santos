@@ -59,6 +59,10 @@
 }
 
 @media screen and (min-width: 960px) {
+    .mask {
+        padding: calc(var(--vertical-padding) * 2) calc(var(--horizontal-padding) * 1.5);
+    }
+
     .group {
         display: flex;
         justify-content: space-between;

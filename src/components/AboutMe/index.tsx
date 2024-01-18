@@ -6,7 +6,7 @@ import ProfileImg from '@/assets/img/about_me_bg.jpeg'
 
 const AboutMe = () => {
     return (
-        <section className={styles.about_me}>
+        <section id='about' className={styles.about_me}>
             <div className={styles.profile}>
                 <Image src={ProfileImg} alt='Imagem do Dr. Advogado Victor Santos' draggable={false} />
             </div>

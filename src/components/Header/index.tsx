@@ -6,6 +6,7 @@ import { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 
+import LogoSvg from '@/assets/svg/logo.svg'
 import OpenMenuIcon from '@/assets/svg/open_menu.svg'
 
 const Header = () => {
@@ -19,21 +20,21 @@ const Header = () => {
         <div className={styles.header_container}>
             <header className={styles.header}>
                 <div className={styles.logo}>
-                    <span>Victor Santos</span>
+                    <Image src={LogoSvg} alt='Logo do Dr. Victor Santos' draggable={false} />
                 </div>
                 <nav className={`${styles.nav} ${openMenu ? '' : styles.hiden}`}>
                     <ul className={styles.menu}>
                         <li>
-                            <Link href='/'>Áreas</Link>
+                            <Link href='/#experience'>Experiência</Link>
                         </li>
                         <li>
-                            <Link href='/'>Sobre</Link>
+                            <Link href='/#about'>Sobre</Link>
                         </li>
                         <li>
-                            <Link href='/'>Casos</Link>
+                            <Link href='/#cases'>Cases</Link>
                         </li>
                         <li>
-                            <Link href='/'>Contato</Link>
+                            <Link href='/#contact'>Contato</Link>
                         </li>
                     </ul>
                 </nav>

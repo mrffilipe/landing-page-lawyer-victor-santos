@@ -6,10 +6,15 @@
     flex-direction: column;
 }
 
-.logo span {
-    color: var(--primary-color);
-    font-size: 1.5em;
-    font-weight: 700;
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 160px;
+    height: auto;
 }
 
 .reserved {
@@ -31,4 +36,10 @@
 .reserved p a {
     text-decoration: underline;
     color: inherit;
+}
+
+@media screen and (min-width: 1280px) {
+    .logo img {
+        width: 256px;
+    }
 }

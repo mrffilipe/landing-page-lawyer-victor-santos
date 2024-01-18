@@ -6,7 +6,7 @@ import BusinessIcon from '@/assets/svg/business.png'
 
 const Experience = () => {
     return (
-        <section className={styles.experience}>
+        <section id='experience' className={styles.experience}>
             <h1>Principais áreas de atuação</h1>
             <p>
                 Conheça as áreas em que atuo com profundidade e expertise, oferecendo soluções jurídicas personalizadas e dedicadas.

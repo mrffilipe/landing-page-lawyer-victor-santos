@@ -6,7 +6,7 @@ import TrophyIcon from '@/assets/svg/trophy.png'
 
 const Cases = () => {
     return (
-        <section className={styles.cases}>
+        <section id='cases' className={styles.cases}>
             <h1>Cases de sucesso</h1>
             <p>Preencher esta descrição</p>
             <ul>
