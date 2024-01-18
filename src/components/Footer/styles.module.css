@@ -1,6 +1,6 @@
 .footer {
-    background-color: var(--secondary-color);
-    padding: 2em;
+    background-color: var(--complementary-color);
+    padding: var(--vertical-padding) var(--horizontal-padding);
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -17,14 +17,15 @@
     width: 100%;
 }
 
-.reserved :nth-child(2) {
-    margin-top: .5em;
+.reserved :last-child {
+    margin-top: 1em;
+    font-size: .8em;
 }
 
 .reserved p {
     margin: 0;
     text-align: center;
-    color: #dfdfdf;
+    color: var(--complementary-font-color-light);
 }
 
 .reserved p a {

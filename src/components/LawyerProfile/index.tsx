@@ -16,7 +16,7 @@ const LawyerProfile = () => {
                     </p>
                     <LinkButton
                         value='Entre em contato'
-                        href='/'
+                        href='/#contact'
                         className={styles.button} />
                 </div>
             </div>

@@ -12,35 +12,36 @@ const Header = () => {
     const [openMenu, setOpenMenu] = useState<boolean>()
 
     const handleOpenMenu = (): void => {
-        setOpenMenu(!openMenu)
+        setOpenMenu(prev => !prev)
     }
 
     return (
-        <header className={styles.header}>
-            <div className={styles.logo}>
-                <span>Victor Santos</span>
-            </div>
-            <nav className={`${styles.nav} ${openMenu ? '' : styles.hiden}`}>
-                {/* <nav className={`${styles.nav}`}> */}
-                <ul className={styles.menu}>
-                    <li>
-                        <Link href='/'>Áreas</Link>
-                    </li>
-                    <li>
-                        <Link href='/'>Sobre</Link>
-                    </li>
-                    <li>
-                        <Link href='/'>Casos</Link>
-                    </li>
-                    <li>
-                        <Link href='/'>Contato</Link>
-                    </li>
-                </ul>
-            </nav>
-            <button className={styles.handler_menu} onClick={handleOpenMenu}>
-                <Image src={OpenMenuIcon} alt='Icons8 Menu Hamburguer' />
-            </button>
-        </header>
+        <div className={styles.header_container}>
+            <header className={styles.header}>
+                <div className={styles.logo}>
+                    <span>Victor Santos</span>
+                </div>
+                <nav className={`${styles.nav} ${openMenu ? '' : styles.hiden}`}>
+                    <ul className={styles.menu}>
+                        <li>
+                            <Link href='/'>Áreas</Link>
+                        </li>
+                        <li>
+                            <Link href='/'>Sobre</Link>
+                        </li>
+                        <li>
+                            <Link href='/'>Casos</Link>
+                        </li>
+                        <li>
+                            <Link href='/'>Contato</Link>
+                        </li>
+                    </ul>
+                </nav>
+                <button className={styles.handler_menu} onClick={handleOpenMenu}>
+                    <Image src={OpenMenuIcon} alt='Icons8 Menu Hamburguer' />
+                </button>
+            </header>
+        </div>
     )
 }
 
