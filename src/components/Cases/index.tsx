@@ -8,7 +8,7 @@ const Cases = () => {
     return (
         <section id='cases' className={styles.cases}>
             <h1>Cases de sucesso</h1>
-            <p>Preencher esta descrição</p>
+            <p>Conheça os casos em que nossa dedicação fez a diferença.</p>
             <ul>
                 <Case
                     title='Imóveis regularizados'

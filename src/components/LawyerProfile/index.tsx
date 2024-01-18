@@ -1,6 +1,6 @@
 import styles from './styles.module.css'
 
-import LinkButton from '../LinkButton'
+import { LinkButton } from '../Buttons'
 
 const LawyerProfile = () => {
     return (
@@ -17,7 +17,7 @@ const LawyerProfile = () => {
                     <LinkButton
                         value='Entre em contato'
                         href='/#contact'
-                        className={styles.button} />
+                        className={styles.contact_btn} />
                 </div>
             </div>
         </section>

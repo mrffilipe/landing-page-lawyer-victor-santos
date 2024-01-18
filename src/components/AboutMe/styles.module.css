@@ -26,6 +26,10 @@
     font-weight: 700;
 }
 
+.description :nth-child(2) {
+    margin-top: 1.5em;
+}
+
 .description p {
     text-align: justify;
     color: var(--complementary-font-color-light);

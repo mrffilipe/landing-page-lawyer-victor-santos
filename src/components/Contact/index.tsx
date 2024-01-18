@@ -1,6 +1,6 @@
 import styles from './styles.module.css'
 
-import Button from '../Button'
+import { SimpleButton } from '../Buttons'
 
 const Contact = () => {
     return (
@@ -22,7 +22,7 @@ const Contact = () => {
                     <label>
                         <textarea rows={4} placeholder='Sua mensagem' />
                     </label>
-                    <Button value='Enviar mensagem' className={styles.button} />
+                    <SimpleButton value='Enviar mensagem' className={styles.submit_btn} />
                 </form>
             </div>
         </section>

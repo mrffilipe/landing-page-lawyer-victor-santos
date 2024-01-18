@@ -25,16 +25,16 @@ const Header = () => {
                 <nav className={`${styles.nav} ${openMenu ? '' : styles.hiden}`}>
                     <ul className={styles.menu}>
                         <li>
-                            <Link href='/#experience'>Experiência</Link>
+                            <Link href='/#experience' onClick={handleOpenMenu}>Experiência</Link>
                         </li>
                         <li>
-                            <Link href='/#about'>Sobre</Link>
+                            <Link href='/#about' onClick={handleOpenMenu}>Sobre</Link>
                         </li>
                         <li>
-                            <Link href='/#cases'>Cases</Link>
+                            <Link href='/#cases' onClick={handleOpenMenu}>Cases</Link>
                         </li>
                         <li>
-                            <Link href='/#contact'>Contato</Link>
+                            <Link href='/#contact' onClick={handleOpenMenu}>Contato</Link>
                         </li>
                     </ul>
                 </nav>
