@@ -2,7 +2,10 @@ import styles from './styles.module.css'
 
 import Area from './Area'
 
-import BusinessIcon from '@/assets/svg/business.png'
+import BusinessIcon from '@/assets/img/business.png'
+import CivilRightIcon from '@/assets/img/civil_right.png'
+import LawIcon from '@/assets/img/law.png'
+import ChargeIcon from '@/assets/img/charge.png'
 
 const Experience = () => {
     return (
@@ -21,19 +24,19 @@ const Experience = () => {
                 <Area
                     title='Direito civil'
                     description='Soluções em regularização de imóveis, inventários, usucapião e adjudicação compulsória.'
-                    icon={BusinessIcon}
+                    icon={CivilRightIcon}
                     altIcon='Business Icons8'
                 />
                 <Area
                     title='Direito público'
                     description='Representação em licitações, contratos administrativos e questões urbanísticas.'
-                    icon={BusinessIcon}
+                    icon={LawIcon}
                     altIcon='Business Icons8'
                 />
                 <Area
                     title='Ações de cobrança'
                     description='Recuperação de créditos através de ações judiciais e extrajudiciais.'
-                    icon={BusinessIcon}
+                    icon={ChargeIcon}
                     altIcon='Business Icons8'
                 />
             </ul>

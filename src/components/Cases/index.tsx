@@ -2,7 +2,7 @@ import styles from './styles.module.css'
 
 import Case from './Case'
 
-import TrophyIcon from '@/assets/svg/trophy.png'
+import TrophyIcon from '@/assets/img/trophy.png'
 
 const Cases = () => {
     return (

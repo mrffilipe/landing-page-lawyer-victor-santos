@@ -1,5 +1,5 @@
 .lawyer_profile {
-    background-image: url('../../assets/img/welcome_bg.jpg');
+    background-image: url('../../assets/img/welcome_bg.jpeg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -48,6 +48,10 @@
 }
 
 @media screen and (min-width: 960px) {
+    .lawyer_profile {
+        background-image: url('../../assets/img/welcome_bg_large.png');
+    }
+
     .mask {
         padding: var(--vertical-padding) var(--horizontal-padding);
     }
